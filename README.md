@@ -6,7 +6,10 @@ In the Linux and Web Technologies workshop (WLW), a web application had to be de
 
 ##Block Diagram
 
-A web application was developed that reads Gamecontroller inputs and sends them to a server via Websockets. The server side is a Raspberry Pi. Based on the controller inputs, it generates the required signals for motor control on the robot. The front camera of the robot can be connected to the Raspberry Pi, which sends the video to the website. In Figure \ref{fig:WLW-Toplevel}, the software top level is shown.
+A web application was developed that reads Gamecontroller inputs and sends them to a server via Websockets.
+The server side is a Raspberry Pi. Based on the controller inputs, it generates the required signals for motor control on the robot.
+The front camera of the robot can be connected to the Raspberry Pi, which sends the video to the website.
+![ALT](/Block.jpg)
 
 ##Use
 
