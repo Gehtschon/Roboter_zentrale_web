@@ -1,8 +1,10 @@
 # Luftspaltroboter_Zentrale_Web
 
-Zentralen Simulation
+Central simulation
 
-In the Linux and Web Technologies workshop (WLW), a web application had to be developed. This was used as an opportunity to develop a central simulation for the air gap robot. This application can be used for testing in Project 6.
+In the Linux and Web Technologies workshop (WLW), a web application had to be developed.
+This was used as an opportunity to develop a central simulation for the air gap robot.
+This application can be used for testing in Project 6.
 
 ## Block Diagram
 
@@ -20,18 +22,14 @@ Pigpio: Use of I/O
 Motion: Camera image webserver
 The Motion configuration file is stored in the appendix. In this, the ports and frame rates are set.
 
-The application can then be started with [START COMMAND HERE]. The Motion server is started in the NodeJs application, so there is no need to start it separately. Then a web browser can connect to the IP address of the server (port: 3000). If a gamepad is now connected to the end user device, the robot can be controlled via this.
+The application can then be started with [START COMMAND HERE].
+The Motion server is started in the NodeJs application, so there is no need to start it separately.
+Then a web browser can connect to the IP address of the server (port: 3000).
+If a gamepad is now connected to the end user device, the robot can be controlled via this.
 
 ## Connections
 
-The robot must be connected to the Raspberry Pi as follows.
-
-Raspberry Pi	Roboter
-Pin 2	Direction-Left
-Pin 3	Direction-Right
-Pin 18	PWM Left
-Pin 26	PWM Right
-USB	Camera
+The robot must be connected to the Raspberry Pi as follows:
 
 
 | Raspbarry PI    | Roboter         |
