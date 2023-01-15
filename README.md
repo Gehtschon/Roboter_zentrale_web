@@ -34,14 +34,10 @@ Pin 26	PWM Right
 USB	Camera
 
 
-| Default aligned | Left aligned | Center aligned  | Right aligned  |
-|-----------------|:-------------|:---------------:|---------------:|
-| First body part | Second cell  | Third cell      | fourth cell    |
-| Second line     | foo          | **strong**      | baz            |
-| Third line      | quux         | baz             | bar            |
-|-----------------+--------------+-----------------+----------------|
-| Second body     |              |                 |                |
-| 2nd line        |              |                 |                |
-|-----------------+--------------+-----------------+----------------|
-| Third body      |              |                 | Foo            |
-{: .custom-class #custom-id}
+| Raspbarry PI    | Roboter         |
+|-----------------|:----------------|
+| Pin 2			  | Direction-Left  |
+| Pin 3			  | Direction-Right |
+| Pin 18		  | PWM Left        |
+|-Pin 26		  | PWM Right       |
+
