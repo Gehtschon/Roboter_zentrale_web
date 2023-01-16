@@ -3,9 +3,19 @@ const http = require('http');
 const WebSocket = require('ws');
 const pigpio = require('pigpio');
 const child_process = require('child_process');
+const fs = require("fs");
 
 
 const app = express();
+
+app.use(express.static('public'));
+
+app.get('/', (req, res) => {
+	res.set('Content-Type', 'text/html');
+  res.sendFile(__dirname + '/index.html');
+});
+
+
 const port = 3000;
 
 const server = http.createServer(app);
