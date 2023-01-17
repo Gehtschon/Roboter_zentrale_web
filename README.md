@@ -27,6 +27,10 @@ The Motion server is started in the NodeJs application, so there is no need to s
 Then a web browser can connect to the IP address of the server (port: 3000).
 If a gamepad is now connected to the end user device, the robot can be controlled via this.
 
+The Picture is from a Xiaomi Redmi Note 9 Pro
+![ALT](/Note_Screen.jpg)
+
+
 ## Connections
 
 The robot must be connected to the Raspberry Pi as follows:
