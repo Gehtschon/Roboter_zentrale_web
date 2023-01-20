@@ -76,8 +76,8 @@ The file also links to a CSS file, "style.css," which is used to style the eleme
 
 ## Testing
 
-Since the components for the PCB had not yet been delivered when this project work was submitted, the central simulation could not be tested with the PCB.
-The central simulation could not be tested with the PCB. This will be done in project 6,
+Since the components for the PCB had not yet been delivered, the central simulation could not be tested with the PCB.
+This will be done in project 6.
 This software will then also be used to test the mechanical design, which should enable
 the steering of the robot in the future. The outputs of the server were measured and checked with an oscilloscope.
 The data from the oscilloscope was stored as raw data and edited with Matlab.
