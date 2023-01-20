@@ -73,3 +73,16 @@ The file also includes a script that utilizes the WebSocket API to connect to th
 and port 3000. The script also uses the Gamepad API to detect input from a connected gamepad, and maps certain button and axis 
 inputs to control the movement of the robot. Additionally, the script also logs the values of the buttons and axes to the console. 
 The file also links to a CSS file, "style.css," which is used to style the elements on the page.
+
+## Testing
+
+Since the components for the PCB had not yet been delivered when this project work was submitted, the central simulation could not be tested with the PCB.
+The central simulation could not be tested with the PCB. This will be done in project 6,
+This software will then also be used to test the mechanical design, which should enable
+the steering of the robot in the future. The outputs of the server were measured and checked with an oscilloscope.
+The data from the oscilloscope was stored as raw data and edited with Matlab.
+The Duty cycle from the Raspberry Pi concurred with the displayed values on the Website.
+
+![ALT](/Zentralen_Simulation_1.png)
+![ALT](/Zentralen_Simulation_2.png)
+![ALT](/Zentralen_Simulation_3.png)
