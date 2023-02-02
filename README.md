@@ -33,7 +33,7 @@ The Picture is from a Xiaomi Redmi Note 9 Pro
 
 ## Connections
 
-The robot must be connected to the Raspberry Pi as follows:
+The robot has to be connected to the Raspberry Pi as follows:
 
 
 | Raspbarry PI    | Roboter         |
