@@ -63,7 +63,6 @@ wss.on('connection', (ws) => {
       directionLeft.digitalWrite(dirleft);
       // Set the duty cycle of the left motor based on the percentage value
       rescaledPercentageLeft = scale(data.percentageleft,0,100,1,99);
-      console.log(rescaledPercentageLeft);
       const intspeedleft = parseInt(rescaledPercentageLeft, 10);
       const intValue255left = intspeedleft * 255 / 100;
       const intspeedoutleft = parseInt(intValue255left, 10);
