@@ -41,7 +41,7 @@ The robot has to be connected to the Raspberry Pi as follows:
 | Pin 2			  | Direction-Left  |
 | Pin 3			  | Direction-Right |
 | Pin 18		  | PWM Left        |
-|-Pin 26		  | PWM Right       |
+| Pin 26		  | PWM Right       |
 
 
 ## Server
